@@ -27,8 +27,16 @@
               "command": "atom-wildfly:stop"
             },
             {
+              "label": "Restart Server",
+              "command": "atom-wildfly:restart"
+            },
+            {
               "label": "Kill Server",
               "command": "atom-wildfly:kill"
+            },
+            {
+              "label": "Clear Console",
+              "command": "atom-wildfly:clear"
             },
             {
               "label": "Toggle Console",
