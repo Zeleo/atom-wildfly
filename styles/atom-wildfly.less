@@ -1,0 +1,101 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.atom-wildfly-output-panel {
+  min-height: 100px;
+  max-height: 300px;
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.atom-wildfly-output {
+  position: relative;
+  height: 80%;
+  background-color: @app-background-color;
+  overflow-y: auto;
+  overflow-x: scroll;
+}
+
+.atom-wildfly-toolbar {
+  position: relative;
+  height: 20%;
+  overflow:hidden;
+  padding: 10px;
+  padding-left: 15px;
+  background-color: @tool-panel-background-color;
+  border-color: @tool-panel-border-color;
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: thin;
+}
+
+.atom-wildfly-output-area {
+  background-color: @app-background-color;
+  color: @text-color-highlight;
+  padding: 15px;
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  width: 9000px;
+  overflow: hidden;
+  border: none;
+  font-family: monospace;
+}
+
+.atom-wildfly-timestamp {
+  color: @text-color;
+}
+
+.atom-wildfly-info {
+  color: @text-color-info;
+}
+
+.atom-wildfly-warn {
+  color: @text-color-warning;
+}
+
+.atom-wildfly-error {
+  color: @text-color-error;
+}
+
+.atom-wildfly-package {
+  color: @text-color-success;
+}
+
+.atom-wildfly-thread {
+  color: @text-color-subtle;
+}
+
+.atom-wildfly-button {
+  background-color: @button-background-color;
+  height: 25px;
+  margin-right:10px;
+  border-color: @button-border-color;
+  border-width: thin;
+  border-radius: 3px;
+  border-style: solid;
+  font-size: 12px;
+}
+
+.atom-wildfly-button:hover {
+  background-color: @button-background-color-hover;
+  color: @text-color-highlight;
+}
+
+.atom-wildfly-button:active {
+  background-color: @button-background-color-selected;
+  color: @text-color-selected;
+}
+
+.atom-wildfly-button:disabled {
+  background-color: @button-background-color-selected;
+  color: @text-color-subtle;
+}
+
+.atom-wildfly-button-settings {
+  float: right;
+}

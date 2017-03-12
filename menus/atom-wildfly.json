@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Run Wildfly Server",
+        "command": "atom-wildfly:run"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Wildfly",
+          "submenu": [
+            {
+              "label": "Run Server",
+              "command": "atom-wildfly:run"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
