@@ -17,6 +17,26 @@
             {
               "label": "Run Server",
               "command": "atom-wildfly:run"
+            },
+            {
+              "label": "Start Server",
+              "command": "atom-wildfly:start"
+            },
+            {
+              "label": "Stop Server",
+              "command": "atom-wildfly:stop"
+            },
+            {
+              "label": "Kill Server",
+              "command": "atom-wildfly:kill"
+            },
+            {
+              "label": "Toggle Console",
+              "command": "atom-wildfly:toggleConsole"
+            },
+            {
+              "label": "Toggle Panel",
+              "command": "atom-wildfly:toggle"
             }
           ]
         }

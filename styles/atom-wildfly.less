@@ -73,17 +73,19 @@
 .atom-wildfly-button {
   background-color: @button-background-color;
   height: 25px;
-  margin-right:10px;
   border-color: @button-border-color;
   border-width: thin;
-  border-radius: 3px;
+  border-right-width: 0;
+  margin: 0;
   border-style: solid;
   font-size: 12px;
+  padding: 0 0.8em
 }
 
 .atom-wildfly-button:hover {
   background-color: @button-background-color-hover;
   color: @text-color-highlight;
+  cursor: pointer;
 }
 
 .atom-wildfly-button:active {
@@ -98,11 +100,24 @@
 
 .atom-wildfly-button-settings {
   float: right;
+  border-radius: 3px;
 }
 
 .atom-wildfly-hidden {
-  visibility: hidden;
   height: 0;
-  min-hight: 0;
+  min-height: 0;
   padding: 0;
+}
+
+.atom-wildfly-button-left {
+  border-radius: 3px 0 0 3px;
+}
+
+.atom-wildfly-button-right {
+  border-radius: 0 3px 3px 0;
+  border-right-width: thin;
+}
+
+.atom-wildfly-hidden-toolbar {
+  height: 20%;
 }
