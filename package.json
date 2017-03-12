@@ -1,15 +1,20 @@
 {
   "name": "atom-wildfly",
   "main": "./lib/atom-wildfly",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Allows a Wildfly server to run inside Atom. For now you can launch and control the process, though eventually deployment and debugging features will be added.",
   "keywords": [
+    "Wildfly",
+    "JBoss",
+    "Java",
+    "JEE",
+    "J2EE",
+    "EJB",
+    "Enterprise",
+    "EJB3"
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-wildfly:run"
-  },
-  "repository": "https://github.com/atom/atom-wildfly",
-  "license": "MIT",
+  "repository": "https://github.com/bcflynn2/atom-wildfly",
+  "license": "GPL3",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
