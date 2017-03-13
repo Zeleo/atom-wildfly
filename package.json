@@ -1,7 +1,7 @@
 {
   "name": "atom-wildfly",
   "main": "./lib/atom-wildfly",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Allows a Wildfly server to run inside Atom. For now you can launch and control the process, though eventually deployment and debugging features will be added.",
   "keywords": [
     "Wildfly",
@@ -21,6 +21,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
