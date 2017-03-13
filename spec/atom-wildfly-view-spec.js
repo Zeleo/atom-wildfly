@@ -4,7 +4,13 @@
 import AtomWildflyView from '../lib/atom-wildfly-view';
 
 describe('AtomWildflyView', () => {
-  it('has one valid test', () => {
-    expect('life').toBe('easy');
+  let atomWildflyView;
+
+  beforeEach(() => {
+    atomWildflyView = new AtomWildflyView();
+  });
+
+  it('should have valid getters', () => {
+    expect(atomWildflyView.getElement()).toExist();
   });
 });

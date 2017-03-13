@@ -31,9 +31,9 @@ describe('AtomWildfly', () => {
       });
 
       runs(() => {
-        expect(workspaceElement.querySelector('.atom-wildfly')).toExist();
+        expect(workspaceElement.querySelector('.atom-wildfly-output-panel')).toExist();
 
-        let atomWildflyElement = workspaceElement.querySelector('.atom-wildfly');
+        let atomWildflyElement = workspaceElement.querySelector('.atom-wildfly-output-panel');
         expect(atomWildflyElement).toExist();
 
         let atomWildflyPanel = atom.workspace.panelForItem(atomWildflyElement);
@@ -52,7 +52,8 @@ describe('AtomWildfly', () => {
       // workspaceElement to the DOM are generally slower than those off DOM.
       jasmine.attachToDOM(workspaceElement);
 
-      expect(workspaceElement.querySelector('.atom-wildfly')).not.toExist();
+      expect(workspaceElement.querySelector('.atom-wildfly-output')).toExist();
+      expect(workspaceElement.querySelector('.atom-wildfly-output').offsetHeight).toBe(0);
 
       // This is an activation event, triggering it causes the package to be
       // activated.
@@ -64,7 +65,7 @@ describe('AtomWildfly', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let atomWildflyElement = workspaceElement.querySelector('.atom-wildfly');
+        let atomWildflyElement = workspaceElement.querySelector('.atom-wildfly-output-panel');
         expect(atomWildflyElement).toBeVisible();
         atom.commands.dispatch(workspaceElement, 'atom-wildfly:run');
         expect(atomWildflyElement).not.toBeVisible();
