@@ -1,11 +1,42 @@
 {
   "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Run Wildfly Server",
-        "command": "atom-wildfly:run"
-      }
-    ]
+    "atom-text-editor": [{
+      "label": "Wildfly",
+      "submenu": [
+        {
+          "label": "Run Server",
+          "command": "atom-wildfly:run"
+        },
+        {
+          "label": "Start Server",
+          "command": "atom-wildfly:start"
+        },
+        {
+          "label": "Stop Server",
+          "command": "atom-wildfly:stop"
+        },
+        {
+          "label": "Restart Server",
+          "command": "atom-wildfly:restart"
+        },
+        {
+          "label": "Kill Server",
+          "command": "atom-wildfly:kill"
+        },
+        {
+          "label": "Clear Console",
+          "command": "atom-wildfly:clear"
+        },
+        {
+          "label": "Toggle Console",
+          "command": "atom-wildfly:toggleConsole"
+        },
+        {
+          "label": "Toggle Panel",
+          "command": "atom-wildfly:toggle"
+        }
+      ]
+    }]
   },
   "menu": [
     {

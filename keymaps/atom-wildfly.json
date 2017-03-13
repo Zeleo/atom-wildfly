@@ -1,5 +1,11 @@
 {
   "atom-workspace": {
-    "ctrl-alt-w": "atom-wildfly:run"
+    "ctrl-alt-w": "atom-wildfly:run",
+    "ctrl-alt-x": "atom-wildfly:stop",
+    "ctrl-alt-r": "atom-wildfly:restart",
+    "ctrl-alt-s": "atom-wildfly:start",
+    "ctrl-alt-c": "atom-wildfly:clear",
+    "ctrl-alt-o": "atom-wildfly:toggleConsole",
+    "ctrl-alt-k": "atom-wildfly:kill"
   }
 }
