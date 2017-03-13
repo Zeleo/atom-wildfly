@@ -1,4 +1,5 @@
 'use babel';
+/*jshint esversion: 6 */
 
 import AtomWildflyView from '../lib/atom-wildfly-view';
 
