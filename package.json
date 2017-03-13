@@ -13,9 +13,9 @@
     "Enterprise",
     "EJB3"
   ],
-  "repository": "https://github.com/bcflynn2/atom-wildfly",
+  "repository": "https://github.com/Bjond/atom-wildfly",
   "bugs": {
-    "url": "https://github.com/bcflynn2/atom-wildfly/issues"
+    "url": "https://github.com/Bjond/atom-wildfly/issues"
   },
   "license": "GPL3",
   "engines": {
