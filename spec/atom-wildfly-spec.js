@@ -71,5 +71,16 @@ describe('AtomWildfly', () => {
         expect(atomWildflyElement).not.toBeVisible();
       });
     });
+
+    it('clears the console', () => {
+      jasmine.attachToDOM(workspaceElement);
+      let console = workspaceElement.querySelector('.atom-wildfly-output-area');
+      expect(console).toExist();
+      console.innerHTML = 'This is a test';
+      expect(console.innerHTML).toBe('This is a test');
+      atom.commands.dispatch(workspaceElement, 'atom-wildfly:clear');
+      expect(console.innerHTML).toBe('');
+    });
+
   });
 });

@@ -14,6 +14,9 @@
     "EJB3"
   ],
   "repository": "https://github.com/bcflynn2/atom-wildfly",
+  "bugs": {
+    "url": "https://github.com/bcflynn2/atom-wildfly/issues"
+  },
   "license": "GPL3",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
