@@ -21,5 +21,8 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "copy": "^0.3.0",
+    "node-watch": "^0.5.1"
+  }
 }
