@@ -4,7 +4,7 @@
 
 ## Description
 
-This Atom package allows you to run a Wildfly (formerly JBoss) Java Enterprise server within your editor. At this time, you will be able to fire up a server and view the log. The next step will deploy Java packages when they are built. Eventually, debugging support in coordination with Java Atom packages will be implemented.
+This Atom package allows you to run a Wildfly (formerly JBoss) Java Enterprise server within your editor. At this time, you will be able to fire up a server and view the log. The plugin also allows you to monitor archives and deploy them when they change. Eventually, debugging support in coordination with Java Atom packages will be implemented.
 
 ## Usage
 
@@ -16,7 +16,7 @@ With the panel shown, you will see a console panel as well as a toolbar to contr
 
 ![Toolbar Detail](https://raw.githubusercontent.com/Bjond/atom-wildfly/master/images/Wildfly_Output.png)
 
-- Toggle Log 
+- Toggle Log
 
 ```
 ctrl+alt+o
@@ -92,6 +92,10 @@ If this is checked the Wildfly panel will be visible when you launch Atom.
 - Launch Server with Panel
 
 If this is selected, the Wildfly server will boot as soon as you make the panel visible. If not, you will have to manually hit the Start command.
+
+- Deployment Archives
+
+Define folders or archives you want to deploy to your server. If you specify a folder, all valid archive types (war, jar, sar, ear) will be monitored and copied to the server deployment directory when the files are updated. If you specify the file just that file will be monitored. If you want to list several folders or files, separate them with a semicolon (';').
 
 ## General
 
