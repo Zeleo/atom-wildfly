@@ -1,6 +1,6 @@
 # atom-wildfly package
 
-![Atom Wildfly](https://github.com/Zeleo/atom-wildfly/raw/master/images/Wildfly_Start.gif)
+![Atom Wildfly](https://github.com/Zeleo/atom-wildfly/raw/master/images/Wildfly_Start_small.gif)
 
 ## Description
 
