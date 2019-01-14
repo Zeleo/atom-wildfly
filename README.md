@@ -1,6 +1,6 @@
 # atom-wildfly package
 
-![Atom Wildfly](https://github.com/Bjond/atom-wildfly/raw/master/images/Wildfly_Start.gif)
+![Atom Wildfly](https://github.com/Zeleo/atom-wildfly/raw/master/images/Wildfly_Start.gif)
 
 ## Description
 
@@ -14,7 +14,7 @@ With the panel shown, you will see a console panel as well as a toolbar to contr
 
 ### Toolbar Button Description
 
-![Toolbar Detail](https://raw.githubusercontent.com/Bjond/atom-wildfly/master/images/Wildfly_Output.png)
+![Toolbar Detail](https://raw.githubusercontent.com/Zeleo/atom-wildfly/master/images/Wildfly_Output.png)
 
 - Toggle Log
 
@@ -67,7 +67,7 @@ Hides the entire panel, including the toolbar. You can show it again by hitting 
 
 If you have your $JBOSS_HOME pointing at your Wildfly folder, this should just work. In case you don't or want to customize your setup, the following are available in the Settings dialog for the package.
 
-![Settings Panel](https://raw.githubusercontent.com/Bjond/atom-wildfly/master/images/Wildfly_Settings_Screenshot.png)
+![Settings Panel](https://raw.githubusercontent.com/Zeleo/atom-wildfly/master/images/Wildfly_Settings_Screenshot.png)
 
 - Wildfly Home
 
@@ -99,6 +99,6 @@ Define folders or archives you want to deploy to your server. If you specify a f
 
 ## General
 
-This project is maintained by our company, [Bjönd, Inc](http://www.bjondinc.com). We use open source technologies for our product, so we try to return the favor and give back to the community where possible. This is still a very young project and will have quite a few defects, but we will react to issues reported or Pull Requests created as quickly as possible.
+This project is maintained by our company, [Zeleo, Inc](https://www.zeleo.io). We use open source technologies for our product, so we try to return the favor and give back to the community where possible. This is still a very young project and will have quite a few defects, but we will react to issues reported or Pull Requests created as quickly as possible.
 
 I hope you enjoy the plugin, and hopefully it will become more useful as time goes on. Thanks for checking it out!

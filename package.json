@@ -1,7 +1,7 @@
 {
   "name": "atom-wildfly",
   "main": "./lib/atom-wildfly",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Allows a Wildfly server to run inside Atom. For now you can launch and control the process, though eventually deployment and debugging features will be added.",
   "keywords": [
     "Wildfly",
@@ -13,9 +13,9 @@
     "Enterprise",
     "EJB3"
   ],
-  "repository": "https://github.com/Bjond/atom-wildfly",
+  "repository": "https://github.com/Zeleo/atom-wildfly",
   "bugs": {
-    "url": "https://github.com/Bjond/atom-wildfly/issues"
+    "url": "https://github.com/Zeleo/atom-wildfly/issues"
   },
   "license": "GPL3",
   "engines": {
